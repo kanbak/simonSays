@@ -30,7 +30,7 @@
             [UIView animateWithDuration:0.3 animations:^{
                 subview.backgroundColor=[UIColor whiteColor];
             }];
-            [UIView animateWithDuration:1.0 animations:^{
+            [UIView animateWithDuration:8.0 animations:^{
                 subview.backgroundColor=previousColor;
             }];
         }
