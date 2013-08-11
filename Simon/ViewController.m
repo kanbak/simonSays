@@ -27,10 +27,10 @@
         for (UIView *subview in self.view.subviews) {
             UIColor *previousColor=subview.backgroundColor;
             //NSLog(@"%@",previousColor);
-            [UIView animateWithDuration:0.3 animations:^{
+            [UIView animateWithDuration:1.0 animations:^{
                 subview.backgroundColor=[UIColor whiteColor];
             }];
-            [UIView animateWithDuration:8.0 animations:^{
+            [UIView animateWithDuration:2.0 animations:^{
                 subview.backgroundColor=previousColor;
             }];
         }
